@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>AMANA_JILL</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+        <link href="favicon.ico" rel="icon">
+        
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Edu+TAS+Beginner:wght@400..700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link rel="stylesheet" href="lib/animate/animate.min.css"/>
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar Start -->
+        <div class="container-fluid nav-section border-0">
+            <nav class="navbar navbar-light">
+                <div class="navbar-nav flex-column">
+                    <a href="#pigraHome" class="nav-item nav-link active"><span class="fa fa-home"></span> Home</a>
+                    <a href="#pigraAbout" class="nav-item nav-link"><span class="far fa-address-card"></span> About</a>
+                    <a href="#pigraService" class="nav-item nav-link"><span class="fab fa-servicestack"></span> Service</a>
+                    <a href="#pigraPortfolio" class="nav-item nav-link"><span class="fa fa-blog"></span> Portfolio</a>
+                    <a href="#pigraContact" class="nav-item nav-link"><span class="fas fa-address-book"></span> Contact</a>
+                </div>
+            </nav>
+        </div>
+        <!-- Navbar End -->
+
+        <!-- Header Start -->
+        <div class="container-fluid" id="pigraHome">
+            <div class="container">
+                <div class="row g-0">
+                    <div class="col-12 col-lg-3">
+                        <div class="header-content bg-dark h-100 pt-6 pe-6 pb-6">
+                            <a href="index.html" class="navbar-brand d-inline-flex pb-5 wow fadeInUp" data-wow-delay="0.1s">
+                                <h1 class="display-6 text-white mb-0">AMANA</h1>
+                            </a>
+                            <div class="text-start d-flex flex-column justify-content-center wow fadeInUp" data-wow-delay="0.3s">
+                                <p class="text-white sub-title">👋 Hello I'm JILL AMANA</p>
+                                <h1 class="display-6 text-white mb-0">Accountant Based in Kenya</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-9">
+                        <div class="header-img d-flex h-100 pt-6 ps-6 pb-6">
+                            <div class="row g-5">
+                                <div class="col-xl-6 wow fadeInUp" data-wow-delay="0.1s">
+                                    <div class="bg-light p-4" style="border-radius: 68% 32% 100% 0% / 0% 75% 25% 100%;">
+                                        <img src="img/header-img.jpg" class="img-fluid w-100" style="border-radius: 68% 32% 100% 0% / 0% 75% 25% 100%;" alt="Image">
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 wow fadeInUp" data-wow-delay="0.3s">
+                                    <h1 class="display-6 mb-4">Accountant</h1>
+                                    <p class="mb-4"> "Beyond the Balance Sheet: Financial Strategy for Your Growth."
+                                    </p>
+                                    <div class="d-flex align-items-center mb-2">
+                                        <i class="fas fa-map-marker-alt text-primary me-3"></i>
+                                        <p class="text-dark mb-0">150 Street Kakamega.Kenya</p>
+                                    </div>
+                                    <div class="d-flex align-items-center mb-2">
+                                        <i class="fas fa-envelope text-primary me-3"></i>
+                                        <p class="text-dark mb-0">amanajill2@gmail.com</p>
+                                    </div>
+                                    <div class="d-flex align-items-center mb-2">
+                                        <i class="fa fa-phone-alt text-primary me-3"></i>
+                                        <p class="text-dark mb-0">+254703857120</p>
+                                    </div>
+                                    <div class="d-flex align-items-center mb-4">
+                                        <i class="fab fa-firefox-browser text-primary me-3"></i>
+                                        <p class="text-dark mb-0">amanajill.co.ke</p>
+                                    </div>
+                                    <div class="d-flex">
+                                        <a class="btn btn-primary btn-sm-square me-3" href="#"><i class="fab fa-facebook-f text-white"></i></a>
+                                        <a class="btn btn-primary btn-sm-square me-3" href="#"><i class="fab fa-twitter text-white"></i></a>
+                                        <a class="btn btn-primary btn-sm-square me-3" href="#"><i class="fab fa-instagram text-white"></i></a>
+                                        <a class="btn btn-primary btn-sm-square me-0" href="#"><i class="fab fa-linkedin-in text-white"></i></a>
+                                    </div>
+                                       <br><button onclick="printPdf()"class="btn btn-outline-danger"><i class="icon-down-circled2 "></i>DOWNLOAD MY RESUME</button>
+                
+
+  <script>
+    function printPdf() {
+      // Replace 'path/to/your/file.pdf' with the actual path to your PDF file
+      window.open('img/AMANA.pdf', '_blank'); 
+    }
+  </script>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Header End -->
+
+
+        <!-- About Start -->
+        <div class="container-fluid" id="pigraAbout">
+            <div class="container">
+                <div class="row g-0">
+                    <div class="col-12 col-lg-3">
+                        <div class="about-header bg-dark h-100 pt-6 pe-6 pb-6">
+                            <div class="text-start d-flex flex-column justify-content-center wow fadeInUp" data-wow-delay="0.1s">
+                                <p class="text-white sub-title">About Me</p>
+                                <h1 class="display-6 text-white mb-0">Accountant based in Kakamega, Kenya since 2025</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-9">
+                        <div class="about-content h-100 pt-6 ps-6 pb-6">
+                            <div class="row g-5">
+                                <div class="col-xl-5">
+                                    <div class="about-img bg-light p-4 wow fadeInUp" data-wow-delay="0.1s">
+                                        <img src="img/about.jpg" class="img-fluid w-100" alt="Image">
+                                        <div class="sosial-icon">
+                                            <a class="btn btn-primary btn-sm-square mb-3" href="#"><i class="fab fa-facebook-f text-white"></i></a>
+                                            <a class="btn btn-primary btn-sm-square mb-3" href="#"><i class="fab fa-twitter text-white"></i></a>
+                                            <a class="btn btn-primary btn-sm-square mb-3" href="#"><i class="fab fa-instagram text-white"></i></a>
+                                            <a class="btn btn-primary btn-sm-square mb-0" href="#"><i class="fab fa-linkedin-in text-white"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-7 wow fadeInUp" data-wow-delay="0.3s">
+                                    <h4 class="mb-4">Hello, I'm Amana Jill, Based in Kenya</h4>
+                                    <p class="mb-4">I am a results-driven Bachelor of Commerce (Finance) graduate from KCA University (July 2025), with a solid foundation in financial analysis, tax compliance, audit procedures, and risk management. My professional journey spans structured audit engagements at Grohney & Co. Associates—where I conducted financial statement analysis, audit testing, and tax filings—and my current role at King’oina-Obuya Advocates, where I successfully led the full implementation of an accounting system for a previously non-compliant legal practice. These experiences have sharpened my attention to detail, deepened my regulatory expertise, and demonstrated my ability to bridge gaps across audit and tax functions to ensure seamless, cross-functional collaboration.
+                                    </p>
+                                    <div class="row g-4 mb-4">
+                                        <div class="col-6">
+                                            <p><strong class="fw-bold text-dark">Phone :</strong> +254703857120</p>
+                                            <p><strong class="fw-bold text-dark">Instagram :</strong> Jill_Amana</p>
+                                            <p class="mb-0"><strong class="fw-bold text-dark">Address :</strong> 150 Street</p>
+                                        </div>
+                                        <div class="col-6">
+                                            <p><strong class="fw-bold text-dark">Nationality :</strong> Kenyan</p>
+                                            <p><strong class="fw-bold text-dark">Email :</strong> amanajill2@gmail.com</p>
+                                            <p class="mb-0"><strong class="fw-bold text-dark">Freelancer :</strong> Available</p>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+
+        <!-- Education Start -->
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row g-0">
+                    <div class="col-lg-3">
+                        <div class="education-header bg-dark h-100 pt-6 pe-6 pb-6">
+                            <div class="text-start d-flex flex-column justify-content-center wow fadeInUp" data-wow-delay="0.1s">
+                                <p class="text-white sub-title">Education</p>
+                                <h1 class="display-6 text-white mb-0">My education qualification</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="education-content h-100 pt-6 ps-6 pb-6">
+                            <div class="row g-4">
+                                <div class="col-12">
+                                    <div class="education-item rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.1s">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <p class="fs-5 mb-0 me-4">KCA University</p>
+                                            <div>
+                                                <span class="fa fa-calendar me-1"></span> 2020 - 2025
+                                            </div>
+                                        </div>
+                                        <h4 class="mb-3">Degree</h4>
+                                        <p class="mb-0">Bachelor of Commerce (Finance)
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="education-item rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.3s">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <p class="fs-5 mb-0 me-4">Lugulu Girls' National School</p>
+                                            <div>
+                                                <span class="fa fa-calendar me-1"></span> 2016 - 2019
+                                            </div>
+                                        </div>
+                                        <h4 class="mb-3">Certificate</h4>
+                                        <p class="mb-0">KCSE
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="education-item rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.5s">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <p class="fs-5 mb-0 me-4">Lugulu Mixed Boarding and Day Primary School-Webuye Kenya</p>
+                                            <div>
+                                                <span class="fa fa-calendar me-1"></span> 2007 - 2015
+                                            </div>
+                                        </div>
+                                        <h4 class="mb-3">Certificate</h4>
+                                        <p class="mb-0">KCPE
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Education End -->
+
+        <!-- Experience Start -->
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row g-0">
+                    <div class="col-lg-3">
+                        <div class="experience-header bg-dark h-100 pt-6 pe-6 pb-6">
+                            <div class="text-start d-flex flex-column justify-content-center wow fadeInUp" data-wow-delay="0.1s">
+                                <p class="text-white sub-title">Experience</p>
+                                <h1 class="display-6 text-white mb-0">My real work experience</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="experience-content h-100 pt-6 ps-6 pb-6">
+                            <div class="row g-4">
+                                <div class="col-12">
+                                    <div class="experience-item rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.1s">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <p class="fs-5 mb-0 me-4">King’oina-Obuya Advocates, Law Firm, Nairobi
+                                            <div>
+                                                <span class="fa fa-calendar me-1"></span> 2025 - present
+                                            </div>
+                                        </div>
+                                        <h4 class="mb-3">Intern</h4>
+                                        <p class="mb-0">Spearheaded the creation and implementation of a tailored accounting system for the firm, which previously operated without structured financial processes. 
+                                        </p>
+                                        <p class="mb-0">Established financial policies, procedures, and a cost-effective accounting framework in collaboration with management, significantly improving operational efficiency and reporting accuracy. 
+                                        </p>
+                                        <p class="mb-0">Managed bookkeeping, reconciliations, and financial records, ensuring compliance and precision across all financial documentation.  
+                                        </p>
+                                        <p class="mb-0">Designed and executed a structured petty cash system, including a formal policy, standardized vouchers, and an audit-ready replenishment process — leading to improved financial accountability and reduced discrepancies.  
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="experience-item rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.3s">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <p class="fs-5 mb-0 me-4">Grohney and Co. Associates, Audit,Tax & Consulting Firm Nairobi</p>
+                                            <div>
+                                                <span class="fa fa-calendar me-1"></span>2024 - 2025
+                                            </div>
+                                        </div>
+                                        <h4 class="mb-3">Attaché</h4>
+                                        <p class="mb-0">Financial Analysis: Conducted detailed financial statement analysis, identifying variances and discrepancies to support decision-making and ensure accuracy in financial reporting. 
+                                        </p>
+                                        <p class="mb-0">Auditing Procedures: Performed comprehensive audits, including examining financial records, testing controls, and assessing the accuracy of accounts to ensure compliance with regulatory standards.
+                                        </p> 
+                                        <p class="mb-0">Tax Compliance: Assisted with tax preparation, filing, and ensuring compliance with local tax laws and regulations, helping clients manage their tax liabilities efficiently.
+                                        </p> 
+                                        <p class="mb-0">Documentation and Reporting: Prepared audit reports, documented findings, and maintained accurate records of financial assessments, ensuring clarity and thoroughness for stakeholders.
+                                        </p>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Exparience End -->
+
+
+        <!-- Service Start -->
+        <div class="container-fluid" id="pigraService">
+            <div class="container">
+                <div class="row g-0">
+                    <div class="col-lg-3">
+                        <div class="service-header h-100 bg-dark pt-6 pe-6 pb-6">
+                            <div class="text-start d-flex flex-column justify-content-center wow fadeInUp" data-wow-delay="0.1s">
+                                <p class="text-white sub-title">My Services</p>
+                                <h1 class="display-6 text-white mb-0">What I do for you</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="service-content h-100 pt-6 ps-6 pb-6">
+                            <div class="row g-4">
+                                <div class="col-12">
+                                    <div class="service-item p-4 wow fadeInUp" data-wow-delay="0.1s">
+                                        <div class="row g-4 align-items-center">
+                                            <div class="col-xl-2">
+                                                <i class="fas fa-bezier-curve fa-3x"></i>
+                                            </div>
+                                            <div class="col-xl-3">
+                                                <h4 class="mb-0">Financial Ecosystem Setup</h4>
+                                            </div>
+                                            <div class="col-xl-4">
+                                                <p class="mb-0">Moving clients from manual spreadsheets to automated cloud platforms.<br>Connecting bank feeds, receipt scanning tools.
+                                                </p>
+                                            </div>
+                                            <div class="col-xl-3">
+                                               <p><i class="fa fa-check me-2"></i> Research</p>
+                                                <p><i class="fa fa-check me-2"></i> Cloud Migration</p>
+                                                <p class="mb-0"><i class="fa fa-check me-2"></i> App Integration</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="service-item p-4 wow fadeInUp" data-wow-delay="0.3s">
+                                        <div class="row g-4 align-items-center">
+                                            <div class="col-xl-2">
+                                                <i class="fas fa-laptop-code fa-3x"></i>
+                                            </div>
+                                            <div class="col-xl-3">
+                                                <h4 class="mb-0">Compliance & Maintenance</h4>
+                                            </div>
+                                            <div class="col-xl-4">Managing quarterly estimated tax payments for self-employed clients and filing annual returns.<br>
+                                                Handling payments for clients who have small teams or contractors.
+                                                <p class="mb-0">
+                                                </p>
+                                            </div>
+                                            <div class="col-xl-3">
+                                                <h6><i class="fa fa-check me-2"></i> Research</h6>
+                                                <p><i class="fa fa-check me-2"></i>Tax Planning&Filing</p>
+                                                <p class="mb-0"><i class="fa fa-check me-2"></i>Payroll Management</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="service-item p-4 wow fadeInUp" data-wow-delay="0.5s">
+                                        <div class="row g-4 align-items-center">
+                                            <div class="col-xl-2">
+                                                <i class="fab fa-app-store fa-3x"></i>
+                                            </div>
+                                            <div class="col-xl-3">
+                                                <h4 class="mb-0">Advisory & Fractional CFO Services</h4>
+                                            </div>
+                                            <div class="col-xl-4">
+                                                <p class="mb-0">Breaking down which of the client's products or services are actually making money.<br>
+                                                  Acting as the point of contact if a client is audited by tax authorities.
+                                                </p>
+                                            </div>
+                                            <div class="col-xl-3">
+                                                <p><i class="fa fa-check me-2"></i>Research</p>
+                                                <p><i class="fa fa-check me-2"></i> Profitability Analysis</p>
+                                                <p class="mb-0"><i class="fa fa-check me-2"></i> Audit Representation</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Service End -->
+
+
+        <!-- Portfolio Start -->
+        <div class="container-fluid" id="pigraPortfolio">
+            <div class="container">
+                <div class="row g-0">
+                    <div class="col-lg-3">
+                        <div class="portfolio-header h-100 bg-dark pt-6 pe-6 pb-6">
+                            <div class="text-start d-flex flex-column justify-content-center wow fadeInUp" data-wow-delay="0.1s">
+                                <p class="text-white sub-title">Portfolio</p>
+                                <h1 class="display-6 text-white mb-0">My Recent Works</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="portfolio-content h-100 pt-6 ps-6 pb-6">
+                            <div class="portfolio-item py-5 border-bottom wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="row g-4 align-items-center">
+                                    <div class="col-xl-6">
+                                        <h4 class="text-body">Financial Ecosystem Setup</h4>
+                                        <h1 class="display-6 mb-0"> For RARALWAVES SOLUTIONS</h1>
+                                    </div>
+                                    <div class="col-9 col-xl-4">
+                                        <div class="portfolio-img">
+                                            <div class="portfolio-img-inner">
+                                                <img src="img/Portfolio-1.jpg" class="img-fluid" alt="Image">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3 col-xl-2">
+                                        <div class="view-img">
+                                            <a href="img/Portfolio-1.jpg" class="btn btn-primary btn-lg-square"  data-lightbox="Portfolio-1"><i class="fas fa-plus"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolio-item py-5 border-bottom wow fadeInUp" data-wow-delay="0.3s">
+                                <div class="row g-4 align-items-center">
+                                    <div class="col-xl-6">
+                                        <h4 class="text-body">Advisory & Fractional CFO Services</h4>
+                                        <h1 class="display-6 mb-0">Advisory & Fractional CFO Services for Shati Codes</h1>
+                                    </div>
+                                    <div class="col-9 col-xl-4">
+                                        <div class="portfolio-img">
+                                            <div class="portfolio-img-inner">
+                                                <img src="img/portfolio-2.jpg" class="img-fluid" alt="Image">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3 col-xl-2">
+                                        <div class="view-img">
+                                            <a href="img/portfolio-2.jpg" class="btn btn-primary btn-lg-square"  data-lightbox="portfolio-2"><i class="fas fa-plus"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolio-item py-5 wow fadeInUp" data-wow-delay="0.5s">
+                                <div class="row g-4 align-items-center">
+                                    <div class="col-xl-6">
+                                        <h4 class="text-body">Compliance & Maintenance</h4>
+                                        <h1 class="display-6 mb-0">Compliance & Maintenance for Amucayor Palate</h1>
+                                    </div>
+                                    <div class="col-9 col-xl-4">
+                                        <div class="portfolio-img">
+                                            <div class="portfolio-img-inner">
+                                                <img src="img/portfolio-3.jpg" class="img-fluid" alt="Image">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3 col-xl-2">
+                                        <div class="view-img">
+                                            <a href="img/portfolio-3.jpg" class="btn btn-primary btn-lg-square"  data-lightbox="portfolio-3"><i class="fas fa-plus"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio End -->
+
+
+        
+
+
+        <!-- Contact Start -->
+        <div class="container-fluid" id="pigraContact">
+            <div class="container">
+                <div class="row g-0">
+                    <div class="col-lg-3">
+                        <div class="contact-header h-100 bg-dark pt-6 pe-6 pb-6">
+                            <div class="text-start d-flex flex-column justify-content-center wow fadeInUp" data-wow-delay="0.1s">
+                                <p class="text-white sub-title">Contact Me</p>
+                                <h1 class="display-6 text-white mb-0">Let’s Start A New Project</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                       <div class="contact-content h-100 pt-6 ps-6 pb-6">
+                            <div class="bg-light p-4">
+                                <div class="row g-5">
+                                    <div class="col-xl-5 wow fadeInUp" data-wow-delay="0.1s">
+                                        <h4 class="mb-4">Contact me</h4>
+                                        <div class="d-flex mb-4">
+                                            <div class="btn-xl-square bg-primary text-white me-3">
+                                                <i class="fas fa-map-marker-alt"></i>
+                                            </div>
+                                            <div>
+                                                <h4>Address</h4>
+                                                <p class="mb-0">150 Street, Kenya</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mb-4">
+                                            <div class="btn-xl-square bg-primary text-white me-3">
+                                                <i class="fas fa-envelope"></i>
+                                            </div>
+                                            <div>
+                                                <h4>Mail Us</h4>
+                                                <p class="mb-0">amanajill2@gmail.com</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex">
+                                            <div class="btn-xl-square bg-primary text-white me-3">
+                                                <i class="fa fa-phone-alt"></i>
+                                            </div>
+                                            <div>
+                                                <h4>Telephone</h4>
+                                                <p class="mb-0">+254703857120</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button id="whatsappBtn" class="btn btn-primary btn-whatsapp w-100 py-3">
+            Send Message
+        </button>
+    </div>
+
+    <script>
+        // CONFIGURATION: Change these values
+        const config = {
+            phoneNumber: "+254703857120", // Format: CountryCode + Number (No +, -, or 00)
+            message: "Hello! I am reaching out from your website regarding accounting services. I would like to schedule a consultation."
+        };
+
+        document.getElementById('whatsappBtn').addEventListener('click', function() {
+            // 1. Clean the phone number (remove any stray characters just in case)
+            const cleanPhone = config.phoneNumber.replace(/\D/g, '');
+            
+            // 2. Encode the message so spaces and punctuation work in a URL
+            const encodedMessage = encodeURIComponent(config.message);
+            
+            // 3. Construct the final URL
+            const whatsappUrl = `https://wa.me/${cleanPhone}?text=${encodedMessage}`;
+            
+            // 4. Open in a new tab
+            window.open(whatsappUrl, '_blank');
+        });
+    </script>
+                                    
+
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 wow fadeInUp" data-wow-delay="0.5s">
+                                        <div class="rounded">
+                                        
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact End -->
+
+
+        <!-- Footer Start -->
+        <div class="container-fluid footer bg-dark border-bottom-0">
+            <div class="container wow fadeIn" data-wow-delay="0.1s">
+                <div class="row g-0">
+                    <div class="col-12">
+                       <div class="footer-content h-100 pt-6 ps-6 pb-6">
+                            <div class="row g-4 align-items-center">
+                                <div class="col-12 text-center">
+                                    <div class="d-flex justify-content-center">
+                                        <a class="btn btn-light btn-md-square me-3" href=""><i class="fab fa-facebook-f"></i></a>
+                                        <a class="btn btn-light btn-md-square me-3" href=""><i class="fab fa-twitter"></i></a>
+                                        <a class="btn btn-light btn-md-square me-3" href=""><i class="fab fa-instagram"></i></a>
+                                        <a class="btn btn-light btn-md-square me-0" href=""><i class="fab fa-linkedin-in"></i></a>
+                                    </div>
+                                </div>
+                                <div class="col-12 text-center">
+                                    <span class="text-body"><a href="#" class="border-bottom text-white"><i class="fas fa-copyright text-body me-2"></i>Jill_Amana</a>, All right reserved.</span>
+                                </div>
+                                <div class="col-12 text-center text-body">
+                                    
+                                    Designed By <a class="border-bottom text-white" href="https://raralwavessolutions.co.ke/">RARALWAVES SOLUTIONS</a>
+                                </div>
+                            </div>
+                       </div>        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        
+
+        <!-- Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
